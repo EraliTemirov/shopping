@@ -1,0 +1,47 @@
+.footer-left img{
+    width: 80%;
+    border-radius: 5px;
+}
+.footer-left{
+    padding-right: 80px;
+}
+
+.footer{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.footer-left p{
+    margin-top: 20px;
+    padding-right: 80px;
+}
+
+.text-red{
+    color: #ee4266;
+}
+
+.footer-title{
+    font-size: 14px;
+    color: #25262a;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.footer-text{
+    color: #737b8a;
+    text-decoration: none;
+}
+.footer-text:hover{
+    color: #ee4266;
+
+}
+
+.ml6{
+    margin-left: -30px;
+}
+.mt1{
+    margin-top: -50px;
+}
+
+.footer-right{
+    margin-top: 20px;
+}
