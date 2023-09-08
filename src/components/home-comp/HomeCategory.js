@@ -5,6 +5,7 @@ import cat2 from '../../assets/img/cat2.png'
 import cat3 from '../../assets/img/banner.png'
 import { Link } from 'react-router-dom';
 const HomeCategory = () => {
+    
   return (
     <div className="container">
         <div className="home-cat"  id="#categories">
