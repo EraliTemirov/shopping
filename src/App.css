@@ -4,7 +4,7 @@
 }
 
 .container{
-  max-width: 80%;
+  max-width: 70%;
   margin: 0 auto;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .darkor-btn{
-  padding: 12px 30px;
+  padding:  0.3rem 1rem;
   background: #000;
   color: #fff;
   border: none;
@@ -50,16 +50,16 @@
 }
 .product-btn{
   display: inline-block;
-  padding: 10px 30px;
+  padding: 0.3rem 1rem;
   background: #fff;
   color: #000;
   z-index: 8;
-  font-size: 20px;
+  font-size: 1.2rem;
   border: none;
   text-decoration: none;
   position: absolute;
   top: 50%;
-  left: 35%;
+  left: 33%;
 }
 .product-btn span{
   font-size: 12px;

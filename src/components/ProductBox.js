@@ -1,23 +1,32 @@
-import React from 'react'
-import '../assets/styles/product.css'
-import img from '../assets/img/cat2.png'
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import '../assets/styles/product.css';
+import { Link, useParams } from 'react-router-dom';
+
 const ProductBox = () => {
+  const { productId } = useParams();
+  const [product, setProduct] = useState({});
+
+  useEffect(() => {
+    fetch(`https://fakestoreapi.com/products/${productId}`)
+      .then((res) => res.json())
+      .then((json) => setProduct(json));
+  }, [productId]);
+
   return (
     <div className='product-box'>
-            <Link className="product-box-img">
-                <img src={img} alt="" />
-            </Link>
-            <div className='mt-3 mb-4'>
-            <Link className="product-title">
-                Erkaklar ko'ylagi
-            </Link>
-            <div className="product-price">
-                70 000 USZ
-            </div>
-            </div>
+      <Link className="product-box-img">
+        <img src={product.image} alt="" />
+      </Link>
+      <div className='mt-3 mb-4'>
+        <Link className="product-title">
+          {product.title}
+        </Link>
+        <div className="product-price">
+          {product.price} USZ
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProductBox
+export default ProductBox;

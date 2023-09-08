@@ -20,7 +20,7 @@ const HomeBanner = () => {
                     <div className="banner-title">
                          ARRIVALS SALES
                     </div>
-                    <Link to="/" className="darkor-btn">
+                    <Link to="/shop" className="darkor-btn">
                         SHOP NOW
                     </Link>
                 </div>
