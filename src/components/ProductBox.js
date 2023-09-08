@@ -7,7 +7,7 @@ const ProductBox = () => {
   const [product, setProduct] = useState({});
 
   useEffect(() => {
-    fetch(`https://fakestoreapi.com/products/${productId}`)
+    fetch(`https://api/v1/product/deactive/64ddc5eed2149f631a8de64c`)
       .then((res) => res.json())
       .then((json) => setProduct(json));
   }, [productId]);
