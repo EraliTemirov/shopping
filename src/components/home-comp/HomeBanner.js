@@ -9,7 +9,7 @@ const HomeBanner = () => {
             <div className="row">
                 <div className="col-6">
                     <div className="banner-img">
-                        <img src={img} alt="" />
+                        <img src={img} alt="Img" />
                     </div>
                 </div>
                <div className="col-6">

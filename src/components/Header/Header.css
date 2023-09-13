@@ -16,7 +16,7 @@ li{
     text-transform: uppercase;
     letter-spacing: .05em;
     color: #25262a;
-    font-size: 15px;
+    font-size: 20px;
     text-decoration: none !important;
 }
 .header-btn li button svg:hover,
@@ -62,4 +62,7 @@ button{
 
 .drop-menu:hover{
     display: block;
+}
+.Logo{
+    max-width: 100%;
 }

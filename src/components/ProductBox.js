@@ -7,8 +7,8 @@ const ProductBox = () => {
 
   return (
     <div className='product-box'>
-      <Link className="product-box-img">
-        <img src={img} alt="" />
+      <Link to='{cart}' className="product-box-img">
+        <img src={img} alt="img" />
       </Link>
       <div className='mt-3 mb-4'>
         

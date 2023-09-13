@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Header.css'
+import Logo from "../../assets/img/newbozor.logo.png";
 const Header = () => {
   return (
     <div className='container'>
-      <nav className="navbar navbar-expand-lg pt-4 pb-3">
-        <div className="container-fluid">
-            <Link className="logo" to="/"> Darkor</Link>
+      <nav className="navbar navbar-expand-lg ">
+      
+            <Link className="logo" to="/"><img src={Logo} alt='Logo' className='Logo'></img></Link>
             <ul className="header-menu ms-auto">
                 <li className='drop'>
                     <Link className='active'  to="/">Home</Link>
@@ -49,7 +50,6 @@ const Header = () => {
                     </Link>
                 </li>
         </ul>
-        </div>
         
         </nav>
 

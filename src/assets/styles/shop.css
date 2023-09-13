@@ -1,6 +1,5 @@
 .breakpoints{
     font-size: 14px;
-    padding-bottom: 20px;
     margin-top: 30px;
     border-bottom: 1px solid #ccc;
 }
@@ -9,5 +8,4 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 30px;
-    margin-bottom: 40px;
 }

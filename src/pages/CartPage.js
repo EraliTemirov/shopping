@@ -2,13 +2,17 @@ import React, { useState } from 'react';
 
 const CartPage = () => {
 
-  const [count, setCount] = useState(8);
+  const [count, setCount] = useState(1);
   function handleDecrease() {
     setCount(count + 1);
   }
   function handleIncrease() {
     setCount(count - 1);
   }
+
+    
+
+
   return (
 
 

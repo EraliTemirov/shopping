@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/styles/shop.css'
 import ProductBox from '../components/ProductBox'
-import HomeCategory from '../components/home-comp/HomeCategory'
+import Shopcategory from '../components/Shopcategory'
 
 const ShopPage = () => {
   return (
@@ -28,8 +28,8 @@ const ShopPage = () => {
                 </div>
             </div>
         </div>
+       <Shopcategory/>
     </div>
-        <HomeCategory/>
     </>
   )
 }
